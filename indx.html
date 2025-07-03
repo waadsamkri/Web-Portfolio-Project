@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Waad Samkari | Tech Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f0f4f8;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #0a9396, #005f73);
+      color: black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 60px 60px;
+      flex-wrap: wrap;
+    }
+    .header-main {
+      text-align: center;
+      flex: 1;
+      color: black;
+    }
+    header h1 {
+      font-size: 4.5em;
+      margin: 0;
+      font-weight: 700;
+    }
+    header p {
+      font-size: 1.5em;
+      margin-top: 10px;
+      font-weight: 500;
+    }
+    section {
+      margin: 60px auto;
+      max-width: 1000px;
+      padding: 0 20px;
+    }
+    h2 {
+      font-size: 2.5em;
+      color: #023047;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .highlight, .skills ul, .timeline-entry, .contact-info {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    }
+
+    .highlight p {
+      text-align: justify;
+    }
+
+    .skills ul li {
+      margin: 10px 0;
+      font-size: 1.2em;
+    }
+    .timeline {
+      position: relative;
+      padding-left: 50px;
+      border-left: 4px solid #0a9396;
+    }
+    .timeline-entry {
+      position: relative;
+      margin-bottom: 30px;
+    }
+    .timeline-entry::before {
+      content: '';
+      position: absolute;
+      left: -14px;
+      top: 10px;
+      width: 20px;
+      height: 20px;
+      background: #ee9b00;
+      border-radius: 50%;
+      border: 3px solid white;
+    }
+    .contact-info p {
+      font-size: 1.3em;
+      margin: 15px 0;
+      font-weight: 600;
+    }
+    .contact-info a {
+      color: #0a9396;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .education {
+      background: #e0fbfc;
+      padding: 40px 20px;
+      border-radius: 10px;
+    }
+    .education ul {
+      list-style: none;
+      padding: 0;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .education li {
+      display: flex;
+      align-items: center;
+      background: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-left: 6px solid #219ebc;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      font-size: 1.4em;
+      transition: transform 0.3s ease;
+    }
+    .education li:hover {
+      transform: scale(1.03);
+    }
+    .education .emoji-icon {
+      font-size: 2.8em;
+      margin-right: 20px;
+      user-select: none;
+    }
+    .education a {
+      color: #023047;
+      text-decoration: none;
+    }
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .skill-item {
+      background: #caf0f8;
+      padding: 15px 20px;
+      border-radius: 12px;
+      font-size: 1.2em;
+      font-weight: 600;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: background 0.3s ease;
+      cursor: default;
+    }
+    .skill-item:hover {
+      background: #90e0ef;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-main">
+      <h1>Waad Samkari</h1>
+      <p>From Healthcare to Technology </p>
+    </div>
+  </header>
+
+  <section id="contact">
+    <h2>📬 Contact</h2>
+    <div class="contact-info">
+      <p>📞 0506038908</p>
+      <p>📧 <a href="mailto:samkriw1@yahoo.com">samkriw1@yahoo.com</a></p>
+      <p>📍 Jeddah, Saudi Arabia</p>
+      <p>🔗 
+        <svg xmlns="http://www.w3.org/2000/svg" style="vertical-align:middle;" width="18" height="18" viewBox="0 0 24 24" fill="#0A66C2"><path d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM0 8h5v16H0V8zm7.5 0h4.7v2.4h.1c.7-1.2 2.5-2.4 5.1-2.4 5.4 0 6.4 3.5 6.4 8V24h-5v-7c0-1.7 0-3.8-2.3-3.8s-2.7 1.8-2.7 3.7V24h-5V8z"/></svg> 
+        <a href="#" style="color:#0a66c2; font-weight: 600; text-decoration: none; margin-left: 6px;">LinkedIn</a>
+      </p>
+    </div>
+  </section>
+
+  <section class="highlight">
+    <h2>🚀 My Journey</h2>
+    <p>I am a versatile professional with a background in the healthcare industry, currently pursuing a degree in IT. My career has included roles in the health sector and the educational sector, and I am now moving into the dynamic field of technology and artificial intelligence. My keen interest lies in the fields of technology, artificial intelligence, information security, IOT and programming, where I aim to utilize my diverse experiences and skills to contribute and excel.</p>
+  </section>
+
+  <section class="education">
+    <h2>🎓 Academic Foundations</h2>
+    <ul>
+      <li>
+        <span class="emoji-icon">💻</span>
+        <div>
+          <strong>Bachelor's Degree in Information Technology</strong> – <a href="https://www.seu.edu.sa" target="_blank" rel="noopener noreferrer">Saudi Electronic University</a> <span style="color: #6c757d;">(2019–2024)</span>
+        </div>
+      </li>
+      <li>
+        <span class="emoji-icon">🦷</span>
+        <div>
+          <strong>Dental Assistant Diploma</strong> – <a href="https://www.scfhs.org.sa" target="_blank" rel="noopener noreferrer">Saudi Commission for Health Specialties</a> <span style="color: #6c757d;">(2021–2022)</span>
+        </div>
+      </li>
+      <li>
+        <span class="emoji-icon">🧪</span>
+        <div>
+          <strong>Bachelor's Degree in Biochemistry</strong> – <a href="https://www.kau.edu.sa" target="_blank" rel="noopener noreferrer">King Abdulaziz University</a> <span style="color: #6c757d;">(2014–2017)</span>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <section class="experience">
+    <h2>🛠️ Work Experience Timeline</h2>
+    <div class="timeline">
+      <div class="timeline-entry">
+        <h3>AL-Shati Health Center – KAMC, Jeddah</h3>
+        <p>Dental Assistant | Sep 2024 – Now</p>
+      </div>
+      <div class="timeline-entry">
+        <h3>Al Nour Specialized Hospital – Makkah</h3>
+        <p>Dental Assistant | 2022 – Aug 2024</p>
+      </div>
+      <div class="timeline-entry">
+        <h3>King Abdulaziz Medical City – Jeddah</h3>
+        <p>Dental Assistant Trainee | 2021 – 2022</p>
+      </div>
+      <div class="timeline-entry">
+        <h3>King Abdulaziz University - Biochemistry Department</h3>
+        <p>Collaborating Demonstrator | 2019 – 2023</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="skills">
+    <h2>💡 Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-item">🖥️ Computer Skills</div>
+      <div class="skill-item">🤝 Teamwork & Communication</div>
+      <div class="skill-item">🗣️ English Fluency</div>
+      <div class="skill-item">🔄 Adaptability & Flexibility</div>
+      <div class="skill-item">⏱️ Time Management</div>
+      <div class="skill-item">🔥 Work Under Pressure</div>
+    </div>
+  </section>
+
+  <footer style="text-align:center; padding:20px; background:#005f73; color:white;">
+    <p>© 2025 Waad Samkari | Created for Smart Methods Summer Internship</p>
+  </footer>
+</body>
+</html>
